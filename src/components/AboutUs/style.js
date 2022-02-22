@@ -7,6 +7,7 @@ export const Container = styled.div`
     @media screen and (max-width: 600px) {
         display:flex;
         flex-direction: column;
+        width: 100%;
     }
 `
 export const MissaoVisaoValores = styled.div`
@@ -16,7 +17,8 @@ export const MissaoVisaoValores = styled.div`
     @media screen and (max-width: 600px) {
         display:flex;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
+        padding: 1rem;
     }
 `;
 
@@ -32,6 +34,7 @@ export const Missao = styled.div`
         display:flex;
         flex-direction: column;
         width: 100%;
+        text-align: center;
     }
 `;
 
@@ -57,6 +60,7 @@ export const MissaoTexto = styled.p`
     @media screen and (max-width: 600px) {
         padding: 0;
         width: 100%;
+        text-align: justify;
     }
 `;
 
@@ -64,7 +68,11 @@ export const Lista = styled.ul`
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    @media screen and (max-width: 600px) {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
 `;
 
 export const ListaUm = styled.li`
@@ -72,6 +80,10 @@ export const ListaUm = styled.li`
     line-height: 2.5rem;
     list-style-type: none;
     margin-left: 2rem;
+    @media screen and (max-width: 600px) {
+        text-align: center;
+        margin:0;
+    }
 `;
 
 export const BordaTexto = styled.div`

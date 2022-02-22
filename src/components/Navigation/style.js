@@ -23,6 +23,7 @@ export const Menu = styled.div`
     @media screen and (max-width: 600px) {
         text-align: center;
         width: 65%;
+        flex-wrap: nowrap;
     }
     
 `
