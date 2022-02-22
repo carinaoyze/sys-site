@@ -4,6 +4,10 @@ export const Header = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @media screen and (max-width: 600px) {
+        display:flex;
+        flex-direction: column;
+    }
 `
 
 export const ModoEscuro = styled.div`
@@ -16,6 +20,10 @@ export const Menu = styled.div`
     align-items: center;
     justify-content: space-between;
     width: 35%;
+    @media screen and (max-width: 600px) {
+        text-align: center;
+        width: 65%;
+    }
     
 `
 export const Links = styled.a`
@@ -23,6 +31,10 @@ export const Links = styled.a`
     color: var(--blue);
     font-family: 'Fira Mono', 'Open Sans';
     font-size: 1.8rem;
+    @media screen and (max-width: 600px) {
+       
+        text-align: center;
+    }
     
 `
 export const Barra = styled.p`
