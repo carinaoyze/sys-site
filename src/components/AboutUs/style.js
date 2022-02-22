@@ -131,6 +131,7 @@ export const EquipeTitulo = styled.h1`
     text-align: center;
     @media screen and (max-width: 600px) {
         font-size: 1.3rem;
+        text-align: center;
     }
 `;
 
@@ -142,6 +143,8 @@ export const EquipeTexto = styled.p`
     margin-left: 3rem;
     @media screen and (max-width: 600px) {
         font-size: 1.2rem;
+        text-align: center;
+        margin:0;
     }
 
 `;
@@ -150,16 +153,31 @@ export const Socios = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    @media screen and (max-width: 600px) {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
 `;
 
 export const Equipe = styled.footer`
-    
+    @media screen and (max-width: 600px) {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
 `;
 
 export const Colaboradores = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    @media screen and (max-width: 600px) {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
 `;
 
 export const ColaboradoresTitulo = styled.h2`
@@ -170,5 +188,7 @@ export const ColaboradoresTitulo = styled.h2`
     margin-left: 4rem;
     @media screen and (max-width: 600px) {
         font-size: 1rem;
+        text-align: center;
+        margin:0;
     }
 `;

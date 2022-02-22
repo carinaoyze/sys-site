@@ -32,7 +32,7 @@ export const Links = styled.a`
     font-family: 'Fira Mono', 'Open Sans';
     font-size: 1.8rem;
     @media screen and (max-width: 600px) {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         text-align: center;
     }
     

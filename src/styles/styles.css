@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Fira+Mono&family=Fira+Sans&display=swap');
 
 *{
+    
     margin: 0;
     padding: 0;
     border: none;
@@ -24,6 +25,14 @@ html{
 }
 
 body{
-    
+    width: 100%;
     background: var(--background);
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        width: 100%;
+        background: var(--background);
+    }
+    
 }
