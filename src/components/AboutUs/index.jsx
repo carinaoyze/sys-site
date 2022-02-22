@@ -61,16 +61,16 @@ import Borda4 from '../../assets/LOGOP4.png';
                         <MissaoTexto>
                             <Lista>
                                 <ListaUm>
-                                    <ListaUm>Honestidade</ListaUm>
-                                    <ListaUm>Agilidade</ListaUm>
+                                    <ListaUm>Ética</ListaUm>
+                                    <ListaUm>Resolutividade Social</ListaUm>
                                 </ListaUm>
                                 <ListaUm>
                                     <ListaUm>Disponibilidade</ListaUm>
                                     <ListaUm>Responsabilidade Social</ListaUm>
                                 </ListaUm>
                                 <ListaUm>
-                                    <ListaUm>Ética</ListaUm>
-                                    <ListaUm>Resolutividade Social</ListaUm>
+                                    <ListaUm>Honestidade</ListaUm>
+                                    <ListaUm>Agilidade</ListaUm>
                                 </ListaUm>
                             </Lista>
                         </MissaoTexto>
