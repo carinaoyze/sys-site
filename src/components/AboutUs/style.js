@@ -16,7 +16,7 @@ export const MissaoVisaoValores = styled.div`
     @media screen and (max-width: 600px) {
         display:flex;
         flex-direction: column;
-        width: 80%;
+        width: 90%;
     }
 `;
 
@@ -129,7 +129,9 @@ export const EquipeTitulo = styled.h1`
     font-size: 1.7rem;
     text-transform: uppercase;
     text-align: center;
-
+    @media screen and (max-width: 600px) {
+        font-size: 1.3rem;
+    }
 `;
 
 export const EquipeTexto = styled.p`
@@ -138,6 +140,9 @@ export const EquipeTexto = styled.p`
     font-size: 1.4rem;
     text-transform: uppercase;
     margin-left: 3rem;
+    @media screen and (max-width: 600px) {
+        font-size: 1.2rem;
+    }
 
 `;
 
@@ -163,4 +168,7 @@ export const ColaboradoresTitulo = styled.h2`
     font-size: 1.2rem;
     text-transform: uppercase;
     margin-left: 4rem;
+    @media screen and (max-width: 600px) {
+        font-size: 1rem;
+    }
 `;
