@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Fira+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+html{
+    --black: #0D114F;
+    --white: #F9F9F9;
+    --blue: #010d27;
+    --yellow: #feb40e;
+    --background: #F9F9F9;
+    --overlay: #040911;
+    --icon-details:#A5B0C1;
+
+    /* 1 rem = 16px (user agent) = 100% */
+    font-size: 62.5%; /* 10px*/
+}
+
+body{
+    height: 100vh;
+    background: var(--background);
+}
